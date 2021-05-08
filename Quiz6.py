@@ -1,9 +1,10 @@
 def std_weight(height, gender):
-    if gender == '남자':
+    if gender == '남자' or '남성':
         return height/100 * height/100 * 22
 
-    if gender == '여자':
+    if gender == '여자' or '여성':
         return height/100 * height/100 * 21
+        
 height = int(input())
 gender = input()
 
